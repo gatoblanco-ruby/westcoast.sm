@@ -2,10 +2,14 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
+#Gema correspondiente a la busqueda de datos en multiples plataformas 
+gem 'searchkick'
+#Gema correspondiente a la autenticacion de usuarios 
+gem 'devise'
+#Gema correspondiente a la base de datos 
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
-
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
