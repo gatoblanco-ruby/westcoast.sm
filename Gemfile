@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
+
+#diseño
+gem 'bootstrap-sass'
 #Gema correspondiente a la busqueda de datos en multiples plataformas 
 gem 'searchkick'
 #Gema correspondiente a la autenticacion de usuarios 

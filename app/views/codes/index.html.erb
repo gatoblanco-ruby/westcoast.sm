@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<h1>Please get into your code </h1>
+<br>
+<br>
+<br>
+<br>
+<form>
+ <input name="q" <%= @q %> >
+ <button type="submit">Buscar</button>
+</form>
+
+  <tbody>
+  
+  <% if @code.empty? %>
+    <tr>
+    <td>No se encontro su codigo</td>
+    </tr>
+    <% else %>
+    
+  
+  
+    <% @code.each do |code| %>
+      <tr>
+        <td><%= code.code %></td>
+        <td><%= code.description %></td>
+        </tr>
+    <% end %>
+    <% end %>
+  </tbody>
+
+
+<br>
+
+<%= link_to 'New Code', new_code_path %>

@@ -1,8 +1,16 @@
 Rails.application.routes.draw do
-  get 'search/search'
-  devise_for :users
-  resources :products
+  #Viwe principal de la pagina
   root 'home#index'
-  get 'gallery' => 'gallery#product'
-  get 'search', to: 'search#search'
+  #Logica de codigo 
+  resources :codes
+  #View de autenticacion
+  devise_for :administrators
+  devise_for :users
+  #View de Head
+  get 'westcoast'  => 'westcoast#westcoast'
+  get 'drink'  => 'drink#drink'
+  get 'clothes'  => 'clothes#clothes'
+  get 'experience'  => 'experience#experience'
+  get 'administrator'  => 'administrator#administrator'
+ 
 end
