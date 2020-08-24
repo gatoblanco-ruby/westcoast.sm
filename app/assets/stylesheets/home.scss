@@ -1,3 +1,64 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+/*carusel */
+#imagen-carusel-1{
+   border: 5px rgb(8, 8, 8)solid;
+}
+#imagen-carusel-2{
+    border: 5px rgb(10, 10, 10)solid;
+}
+#imagen-carusel-3{
+   border: 5px rgb(8, 8, 8)solid;
+}
+#carusel-letra-1{
+    font-size: 60px;
+    font-family: oblique;
+    color: black;
+}
+#carusel-letra-1-1{
+    font-size: 25px;
+    font-family: oblique;
+    color: black;
+}
+#carusel-letra-2{
+    font-size: 50px;
+    font-family: oblique;
+    color: #F6F8F8;
+}
+#carusel-letra-3{
+    font-size: 50px;
+    font-family: oblique;
+    color: #F6F8F8;
+}
+/*FIN carusel */
+/*Pequeñas historias */
+#img-1{
+    width: 90%;
+    height: 400px;
+    box-shadow: 20px 30px 15px slategray;
+    border-radius: 10%;
+    margin-top: 80px;
+}
+#l-1{
+    margin-top: 80px;
+    font-size: 80px;
+    color: #063F71;
+}
+#l-1-1{
+    font-size: 20px;
+    color: #0F2233;
+  
+}
+#l-2{
+    text-align: right;
+    margin-top: 80px;
+    font-size: 80px;
+    color: #063F71;
+}
+#l-2-2{
+    text-align: right;
+    font-size: 20px;
+    color: #0F2233;
+  
+}

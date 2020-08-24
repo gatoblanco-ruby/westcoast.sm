@@ -13,36 +13,27 @@
 				<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#main-carousel" data-slide-to="1"></li>
 				<li data-target="#main-carousel" data-slide-to="2"></li>
-				<li data-target="#main-carousel" data-slide-to="3"></li>
+				
+				
+				
 			</ol><!-- /.carousel-indicators -->
 			
 			<div class="carousel-inner">
 				<div class="carousel-item active" id="imagen-carusel-1">
-					<%=  image_tag("carusel/1.jpg") %>
-					<div class="carousel-caption d-none d-md-block">
-						<h1>Mountain</h1>
-					</div>
+					<div class="carousel-caption">
+                        <h1 id="carusel-letra-1">WestCoast</h1>
+                        <p id="carusel-letra-1-1">The instant cut of time that we enjoy happily is important</p>
+                    </div>
 				</div>
 				<div class="carousel-item" id="imagen-carusel-2">
-					<%=  image_tag("carusel/2.jpg") %>
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Mountain</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
-					</div>
+					<div class="carousel-caption">
+                    	<h1 id="carusel-letra-2">The best work product is the one that delivers the best results</h1>
+                    </div>
 				</div>
 				<div class="carousel-item" id="imagen-carusel-3">
-					<%=  image_tag("carusel/3.jpg") %>
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Mountain</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="https://s19.postimg.cc/nenabzsnn/slide4.jpg" alt="" class="d-block img-fluid">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Mountain</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
-					</div>
+					<div class="carousel-caption">
+                        <h1 id="carusel-letra-3">Let's remember the tools of those battles that make us heroes of war</h1>
+                    </div>
 				</div>
 			</div><!-- /.carousel-inner -->
 			
@@ -56,7 +47,30 @@
 			</a>
 		</div><!-- /.carousel -->
 	</div><!-- /.container -->
-
+<br>
+<br>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-6">
+			<img class="fluid float-left"><%= link_to image_tag("Historias/1.jpg", id:"img-1")%>
+		</div>
+		<div class="col-6">
+			<h1 id="l-1">Hitoria 1</h1>
+			<p id="l-1-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum accusantium, eos repellendus reiciendis id eius voluptatum, saepe, beatae dolor quo! Voluptate nisi mollitia temporibus architecto, dignissimos minima minus. Debitis?</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h1 id="l-2">Hitoria 2</h1>
+			<p id="l-2-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum accusantium, eos repellendus reiciendis id eius voluptatum, saepe, beatae dolor quo! Voluptate nisi mollitia temporibus architecto, dignissimos minima minus. Debitis?</p>
+		</div>
+		<div class="col-6">
+			<img class="fluid float-left"><%= link_to image_tag("Historias/4.jpg", id:"img-1")%>
+		</div>
+	</div>
+	
+</div>
 <br>
 <br>
 <br>

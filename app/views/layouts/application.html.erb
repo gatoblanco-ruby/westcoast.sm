@@ -19,8 +19,8 @@
 </head>
 <div class="container-fluid fixed-top" id="cabecera">
   <nav class="navbar navbar-expand-sm navbar-fluid">
-    <a class="navbar-brand"><%= link_to image_tag("logo.jpeg", :alt => "logo", style: "height: 115px; width: 150px;"), root_path %></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno">
+    <a class="navbar-brand"><%= link_to image_tag("logo.jpeg", :alt => "logo", style: "height: 95px; width: 120px;"), root_path %></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno" id="menu">
       <ion-icon name="menu-outline"></ion-icon>
     </button>
     <div class="collapse navbar-collapse" id="uno">
@@ -68,14 +68,14 @@
     </div>
   </nav>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <!--ESTILO DEL HEAD FIN-->
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <body>
   <%= yield %>
 
